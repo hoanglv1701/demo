@@ -1,14 +1,17 @@
 {
   "tiles": [
-    "http://103.17.140.224:8080/composite/{z}/{x}/{y}.pbf"
+    "http://36.50.62.190:8080/composite/{z}/{x}/{y}.pbf"
   ],
- "format": "pbf",
-  "name": "Tiles",
-  "id": "tiles",
+  "format": "pbf",
+  "name": "Composite",
+  "id": "composite",
   "bounds": [
-    102.790488,8.562877,109.427844,23.276210
+    102.790488,
+    8.562877,
+    109.427844,
+    23.276210
   ],
-  "maxzoom": 16,
+  "maxzoom": 8,
   "minzoom": 5,
   "version": "3.9",
   "maskLevel": "8",
@@ -17,46 +20,10 @@
   "pixel_scale": "256",
   "vector_layers": [
     {
-      "id": "VN_Building",
-      "description": "",
-      "minzoom": 14,
-      "maxzoom": 16,
-      "fields": {
-        "extrude": "String",
-        "height": "Number",
-        "min_height": "Number",
-        "type": "String",
-        "undergroun": "String"
-      }
-    },
-    {
-      "id": "lakenames",
-      "description": "",
-      "minzoom": 13,
-      "maxzoom": 16,
-      "fields": {
-        "name1": "String",
-        "priority": "Number"
-      }
-    },
-    {
-      "id": "landuser",
-      "description": "",
-      "minzoom": 9,
-      "maxzoom": 16,
-      "fields": {
-        "class": "String",
-        "clustered": "Boolean",
-        "name_vn": "String",
-        "point_count": "Number",
-        "sqrt_point_count": "Number"
-      }
-    },
-    {
       "id": "point_map",
       "description": "",
-      "minzoom": 4,
-      "maxzoom": 16,
+      "minzoom": 5,
+      "maxzoom": 8,
       "fields": {
         "clustered": "Boolean",
         "localrank": "Number",
@@ -68,20 +35,10 @@
       }
     },
     {
-      "id": "rivernames",
-      "description": "",
-      "minzoom": 13,
-      "maxzoom": 16,
-      "fields": {
-        "name1": "String",
-        "priority": "Number"
-      }
-    },
-    {
       "id": "riversandlakes",
       "description": "",
       "minzoom": 6,
-      "maxzoom": 16,
+      "maxzoom": 8,
       "fields": {
         "name1": "String",
         "priority": "Number",
@@ -92,7 +49,7 @@
       "id": "roadshields",
       "description": "",
       "minzoom": 7,
-      "maxzoom": 16,
+      "maxzoom": 8,
       "fields": {
         "clustered": "Boolean",
         "func_class": "Number",
@@ -107,7 +64,7 @@
       "id": "streets",
       "description": "",
       "minzoom": 6,
-      "maxzoom": 16,
+      "maxzoom": 8,
       "fields": {
         "class": "String",
         "layer": "Number",
@@ -116,21 +73,10 @@
       }
     },
     {
-      "id": "streets_label",
-      "description": "",
-      "minzoom": 12,
-      "maxzoom": 16,
-      "fields": {
-        "class": "String",
-        "layer": "Number",
-        "st_name": "String"
-      }
-    },
-    {
       "id": "vietnam_administrator",
       "description": "",
       "minzoom": 5,
-      "maxzoom": 16,
+      "maxzoom": 8,
       "fields": {
         "clustered": "Boolean",
         "name_en": "String",

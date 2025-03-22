@@ -3,10 +3,13 @@
   "name": "BaseTiles",
   "id": "basetiles",
   "bounds": [
-    -178.134384,-54.788341,179.221887,78.314568
+    -178.134384,
+    -54.788341,
+    179.221887,
+    78.314568
   ],
   "tiles": [
-    "http://103.17.140.224:8080/base/{z}/{x}/{y}.pbf"
+    "http://36.50.62.190:8080/base/{z}/{x}/{y}.pbf"
   ],
   "maxzoom": 8,
   "minzoom": 0,
@@ -72,7 +75,7 @@
         "name": "String",
         "localrank": "Number",
         "maki": "String",
-        "scalerank" : "Number"
+        "scalerank": "Number"
       },
       "maxzoom": 8,
       "minzoom": 3,
