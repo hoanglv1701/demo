@@ -1,0 +1,17 @@
+stages:
+  - build
+  - deploy
+  - deploy-staging
+
+variables:
+  GIT_DEPTH: 0
+  SECURE_LOG_LEVEL: debug
+  GIT_SSL_NO_VERIFY: 'true'
+
+include:
+  - project: 'gtcc/cicd'
+    file: docker-build.yaml
+  - project: 'gtcc/cicd'
+    file: deploy.yaml
+  - project: 'gtcc/cicd'
+    file: deploy-staging.yaml

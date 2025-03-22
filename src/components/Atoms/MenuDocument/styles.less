@@ -1,0 +1,29 @@
+.gt-menu-document {
+  .ant-menu-item {
+    background-color: var(--gt-light-green-color);
+    color: #000;
+  }
+  .anticon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-menu-item-selected {
+    background-color: var(--gt-background-active-color);
+    color: #fff;
+
+    .ant-btn-icon {
+      color: #fff;
+    }
+
+    .ant-btn:not(.ant-btn-disabled):hover {
+      background-color: gray;
+    }
+  }
+}
+.tab-document-content {
+  transition: opacity 0.3s ease 0.15s;
+  &-hidden {
+    transition: opacity 0.3s ease;
+  }
+}

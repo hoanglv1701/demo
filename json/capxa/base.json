@@ -1,0 +1,118 @@
+{
+  "format": "pbf",
+  "name": "BaseTiles",
+  "id": "basetiles",
+  "bounds": [
+    -178.134384,-54.788341,179.221887,78.314568
+  ],
+  "tiles": [
+    "http://103.17.140.224:8080/base/{z}/{x}/{y}.pbf"
+  ],
+  "maxzoom": 8,
+  "minzoom": 0,
+  "maskLevel": "8",
+  "planettime": "1552262400000",
+  "attribution": "",
+  "pixel_scale": "256",
+  "vector_layers": [
+    {
+      "id": "island",
+      "fields": {
+        "code": "Number",
+        "localrank": "Number",
+        "name": "String"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "boundary",
+      "fields": {
+        "type": "Number",
+        "shape_len": "Number"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "worldcountriespoints",
+      "fields": {
+        "code": "Number",
+        "cntry_name": "String"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "worldnationalcapitals",
+      "fields": {
+        "city_name": "String",
+        "cntry_name": "String"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "forest",
+      "fields": {
+        "name_vn": "String",
+        "class": "String"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "airport",
+      "fields": {
+        "name": "String",
+        "localrank": "Number",
+        "maki": "String",
+        "scalerank" : "Number"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "mountain",
+      "fields": {
+        "name": "String",
+        "maki": "String",
+        "localrank": "Number",
+        "scalerank": "Number"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "rail_station",
+      "fields": {
+        "name": "String",
+        "maki": "String",
+        "localrank": "Number",
+        "scalerank": "Number"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    },
+    {
+      "id": "ocean",
+      "fields": {
+        "name": "String",
+        "notes": "String",
+        "code": "Number"
+      },
+      "maxzoom": 8,
+      "minzoom": 3,
+      "description": ""
+    }
+  ],
+  "tilejson": "2.0.0"
+}
